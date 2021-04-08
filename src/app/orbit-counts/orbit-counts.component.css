@@ -1,14 +1,17 @@
 .counts {
-    background: #34495E;
+    background: #400074;
     color: #fff;
     border-radius: 5px;
     width: 225px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .counts div {
     padding: 8px;
 }
 
-.counts span {
-    float: right;
+h3 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    color:#400074;
 }

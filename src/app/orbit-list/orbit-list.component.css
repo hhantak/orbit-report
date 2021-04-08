@@ -1,10 +1,10 @@
 .sortable {
     cursor: pointer;
-    color: #dd5;
+    color: rgb(224, 202, 2);
 }
 
 .warning {
-    background-color: #ff4444;
+    background-color: rgb(224, 202, 2);
 }
 
 table {
@@ -17,8 +17,8 @@ table {
 }
 
 .header-row {
-    background: #34495E;
-    color: #fff
+    background: #400074;
+    color: rgb(255, 255, 255)
 }
 
 th, td {
@@ -27,6 +27,9 @@ th, td {
     padding: 6px;
 }
 
-.zebra {
-    background-color: #7da7a1;
+h3 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    color:#400074;
+    text-decoration: underline;
 }

@@ -77,7 +77,7 @@ export class AppComponent {
           // TODO: create a Satellite object using new Satellite(fetchedSatellites[i].name, fetchedSatellites[i].type, fetchedSatellites[i].launchDate, fetchedSatellites[i].orbitType, fetchedSatellites[i].operational);
           // TODO: add the new Satellite object to sourceList using: this.sourceList.push(satellite);
 
-          fetchedSatellites.forEach(satellite=> {
+          fetchedSatellites.forEach((satellite: { name: string; type: string; launchDate: string; orbitType: string; operational: boolean; })=> {
             let satelliteItem = new Satellite(
               satellite.name, 
               satellite.type, 
